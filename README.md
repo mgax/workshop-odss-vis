@@ -5,6 +5,11 @@ Set de date: [Achiziții publice 2010-2014](http://data.gov.ro/dataset/achizitii
 
 Bibliotecă grafică: [Highcharts](http://www.highcharts.com/demo), [Highmaps](http://www.highcharts.com/maps/demo)
 
+Server web local:
+
+* python 2: `python -m SimpleHTTPServer`
+* python 3: `python3 -m http.server`
+
 
 ### Exerciții - charts
 
