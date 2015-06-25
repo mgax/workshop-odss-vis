@@ -2,7 +2,7 @@
 <meta charset="utf-8">
 
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highmaps/1.1.5/highmaps.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highmaps/1.1.5/highmaps.js"></script>
 
 <body>
 <div id="chart"></div>
@@ -10,7 +10,6 @@
 <script>
 $.get('data/avgmap.json', function(data) {
   $.getJSON('judete.geojson', function(judete_geojson) {
-    console.log(judete_geojson);
     $('#chart').highcharts('Map', {
       title: {
         text: 'Valoarea totală a contractelor'
