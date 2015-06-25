@@ -1,6 +1,11 @@
 ## Open Data Summer School - vizualizări
 
 
+Set de date: [Achiziții publice 2010-2014](http://data.gov.ro/dataset/achizitii-publice-2010-2014-anunturi-de-participare)
+
+Bibliotecă grafică: [Highcharts](http://www.highcharts.com/demo), [Highmaps](http://www.highcharts.com/maps/demo)
+
+
 ### Exerciții - charts
 
 Exemplu: [top10.py](top10.py), [top10.html](top10.html) ([demo](https://rawgit.com/mgax/workshop-odss-vis/master/top10.html))
