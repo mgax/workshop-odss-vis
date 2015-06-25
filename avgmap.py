@@ -32,7 +32,7 @@ series = []
 for jud in data.values():
     series.append({
         'siruta': jud['siruta'],
-        'value': int(sum(jud['values'])),
+        'value': int(sum(jud['values']) / len(jud['values'])),
     })
 
 
@@ -41,5 +41,5 @@ out = {
 }
 
 
-with open('data/summap.json', 'w') as f:
+with open('data/avgmap.json', 'w') as f:
     json.dump(out, f, indent=2)

@@ -8,7 +8,7 @@
 <div id="chart"></div>
 
 <script>
-$.get('data/summap.json', function(data) {
+$.get('data/avgmap.json', function(data) {
   $.getJSON('judete.geojson', function(judete_geojson) {
     console.log(judete_geojson);
     $('#chart').highcharts('Map', {
