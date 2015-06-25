@@ -41,5 +41,5 @@ out = {
 }
 
 
-with open('data/summap.json', 'wb') as f:
+with open('data/summap.json', 'w') as f:
     json.dump(out, f, indent=2)

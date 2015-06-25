@@ -26,5 +26,5 @@ out = {
 }
 
 
-with open('data/top10.json', 'wb') as f:
+with open('data/top10.json', 'w') as f:
     json.dump(out, f, indent=2)
