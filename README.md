@@ -3,7 +3,7 @@
 
 ### Exerciții - charts
 
-Exemplu: [top10.py](top10.py), [top10.html](top10.html)
+Exemplu: [top10.py](top10.py), [top10.html](top10.html) ([demo](https://rawgit.com/mgax/workshop-odss-vis/master/top10.html))
 
 1. Modifică codul astfel încât să facă calculele cu toate sumele convertite în
    EUR.
@@ -29,7 +29,7 @@ Exemplu: [top10.py](top10.py), [top10.html](top10.html)
 
 ### Exerciții - maps
 
-Exemplu: [avgmap.py](avgmap.py), [avgmap.html](avgmap.html)
+Exemplu: [avgmap.py](avgmap.py), [avgmap.html](avgmap.html) ([demo](https://rawgit.com/mgax/workshop-odss-vis/master/avgmap.html))
 
 1. Colorează județele în funcție de proporția de fonduri EU / non-EU într-un
    an.
